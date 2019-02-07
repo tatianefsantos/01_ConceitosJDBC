@@ -20,9 +20,8 @@ public class Participante implements Serializable {
 	public Participante() {
 	}
 
-	public Participante(int id, int idEvento, String nome, String email) {
+	public Participante(int idEvento, String nome, String email) {
 		super();
-		this.id = id;
 		this.idEvento = idEvento;
 		this.nome = nome;
 		this.email = email;
